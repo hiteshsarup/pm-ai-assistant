@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}

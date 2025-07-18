@@ -1,0 +1,26 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! How can I help you with your PRD today?"
+    },
+    {
+      "role": "user",
+      "content": "Create a bulk upload PRD"
+    },
+    {
+      "role": "assistant",
+      "content": "Error: Could not get a response."
+    },
+    {
+      "role": "user",
+      "content": "how about now?"
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}

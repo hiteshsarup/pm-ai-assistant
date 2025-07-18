@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! How can I help you with your PRD today?"
+    },
+    {
+      "role": "user",
+      "content": "Context :  Currently in Shipsy's indent flow, once an indent is active only the vendor can reject the indent. The Hub users from the Ops dashboard can only see the status from the field \"Indent pending with\". Feature request : Allow users from Ops Dashboard to be able to revoke an indent"
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}

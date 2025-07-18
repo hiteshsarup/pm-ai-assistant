@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! How can I help you with your PRD today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Successfully uploaded and processed Stops and Round trip Scope.pdf."
+    },
+    {
+      "role": "user",
+      "content": "Please review the PRD attached."
+    },
+    {
+      "role": "assistant",
+      "content": "It seems I currently do not have the capability to process or analyze attached files. However, I can assist you in reviewing the PRD if you provide me with key sections or details from it. Here are some aspects to consider including in your review:\n\n1. **Problem Statement**: Is the problem clearly defined, and does it articulate the pain points effectively?\n\n2. **Use Cases**: Are the use cases well-described, and do they cover all scenarios relevant to the enhancements?\n\n3. **Proposed Solutions**: Are the solutions practical and actionable? Do they address the stated problems?\n\n4."
+    }
+  ],
+  "mode": "reviewer",
+  "approachType": "quick_fix"
+}

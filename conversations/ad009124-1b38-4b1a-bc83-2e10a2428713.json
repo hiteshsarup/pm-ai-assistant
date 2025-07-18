@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! How can I help you with your PRD today?"
+    },
+    {
+      "role": "user",
+      "content": "bulk upload functionaloty"
+    },
+    {
+      "role": "assistant",
+      "content": ""
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}

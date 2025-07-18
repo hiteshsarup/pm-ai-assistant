@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! How can I help you with your PRD today?"
+    },
+    {
+      "role": "user",
+      "content": "What are the stages of a trip?"
+    },
+    {
+      "role": "assistant",
+      "content": "The stages of a trip in the FLM (First and Last Mile) lifecycle include the following:\n\n1. **Trip Planning/Creation**: A trip is created via the Shipsy dashboard or through integration. Users select orders or consignments to create the trip, which then starts in a \"created\" status.\n\n2. **Assigning Driver and Vehicle**: Before the trip execution begins, it must be assigned a driver (rider) and a vehicle. This typically involves fetching a list of available workers.\n\n3. **Adding Stops (Tasks) to Trip**: Consignments or tasks (like pickups or deliveries) are added to the trip during or after its creation. Each stop is represented as a task, and the system ensures consignments belong to only one active trip.\n\n4. **Trip In Progress (En Route)**: Once the trip is on the way, it is tracked for progress, and real-time updates are provided based on GPS or SIM-based tracking configurations.\n\n5. **Unloading at Destination**: Upon reaching the destination hub, the trip undergoes unloading. The start of unloading is recorded, ensuring all expected consignments are accounted for before marking the trip as \"unloading in progress.\"\n\n6. **Closure (Completion)**: The user triggers the closing of the trip, marking it as \"completed.\" The system ensures that necessary conditions, such as unloading and reconciliation tasks, are fulfilled.\n\nThese stages facilitate a systematic approach to managing logistics and ensure proper tracking of trips from start to finish. If you need further details or assistance with a specific stage, let me know!"
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}

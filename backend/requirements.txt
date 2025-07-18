@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-openai
+langchain-community
+chromadb
+python-multipart
+pypdf
+python-dotenv
+tiktoken
+openai
+pytest
+pytest-asyncio
+httpx
+pre-commit

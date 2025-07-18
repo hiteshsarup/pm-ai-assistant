@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? If you need help with a Product Requirements Document (PRD) or anything related to product management, feel free to ask!"
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}

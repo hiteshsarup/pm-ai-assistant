@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hello! How can I help you with your PRD today?"
+    },
+    {
+      "role": "user",
+      "content": "List down the events of a trip in shipsy"
+    },
+    {
+      "role": "assistant",
+      "content": "In Shipsy, the events of a trip typically include the following:\n\n1. **Trip Created**: The initial event when a trip is created in the system.\n2. **Trip Assigned**: When a driver and vehicle are assigned to the trip.\n3. **Trip Started**: Indicates that the trip has commenced.\n4. **Pickup Arrived**: The driver arrives at the pickup location.\n5. **Pickup Completed**: The pickup task is marked as complete.\n6. **Delivery Arrived**: The driver arrives at the delivery location.\n7. **Delivery Completed**: The delivery task is marked as complete.\n8. **Trip State Changed**: Used to indicate any changes in the trip status (e.g., completed, cancelled).\n9. **Trip Frozen**: When the trip is frozen at the hub after pickups.\n10. **Trip Complete**: Final event indicating that all tasks have been completed successfully.\n\nThese events are generated as the trip progresses and can trigger notifications or SLA checks based on the timestamps recorded during each event."
+    }
+  ],
+  "mode": "generator",
+  "approachType": "generic"
+}
